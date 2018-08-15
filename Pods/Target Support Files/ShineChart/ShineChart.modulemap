@@ -1,0 +1,6 @@
+framework module ShineChart {
+  umbrella header "ShineChart-umbrella.h"
+
+  export *
+  module * { export * }
+}

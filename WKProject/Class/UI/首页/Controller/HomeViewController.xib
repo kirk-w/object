@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController" customModule="WKProject" customModuleProvider="target">
+            <connections>
+                <outlet property="homeScrollBG" destination="QPP-im-h2j" id="MQl-i0-1eZ"/>
+                <outlet property="view" destination="iN0-l3-epB" id="fQj-3S-aPN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" contentInsetAdjustmentBehavior="never" translatesAutoresizingMaskIntoConstraints="NO" id="QPP-im-h2j">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zav-6k-38U">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="2000"/>
+                            <color key="backgroundColor" red="0.20000000000000001" green="0.76078431369999999" blue="0.4823529412" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="2000" id="kjf-Qn-Kl2"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.41568627450000001" green="0.66666666669999997" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstItem="zav-6k-38U" firstAttribute="top" secondItem="QPP-im-h2j" secondAttribute="top" id="CQL-bS-FzU"/>
+                        <constraint firstAttribute="trailing" secondItem="zav-6k-38U" secondAttribute="trailing" id="Fk9-LH-9kT"/>
+                        <constraint firstItem="zav-6k-38U" firstAttribute="leading" secondItem="QPP-im-h2j" secondAttribute="leading" id="Hj7-h9-0Rm"/>
+                        <constraint firstAttribute="bottom" secondItem="zav-6k-38U" secondAttribute="bottom" id="YJO-G5-fu5"/>
+                        <constraint firstItem="zav-6k-38U" firstAttribute="centerX" secondItem="QPP-im-h2j" secondAttribute="centerX" id="w8X-Mk-RbP"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="QPP-im-h2j" secondAttribute="bottom" id="13V-AX-9zj"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="QPP-im-h2j" secondAttribute="trailing" id="B2n-Jn-6Kd"/>
+                <constraint firstItem="QPP-im-h2j" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="BRe-XI-cwu"/>
+                <constraint firstItem="QPP-im-h2j" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Wbi-Se-90U"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-69" y="-26"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (4.6.0)
+  - Kingfisher (4.6.1)
+  - ShineChart (1.0.2)
+  - SwiftHash (2.0.1)
+  - SwiftyJSON (4.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.6.0)
+  - Kingfisher (~> 4.6.1)
+  - ShineChart (~> 1.0.2)
+  - SwiftHash (~> 2.0.1)
+  - SwiftyJSON (~> 4.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - ShineChart
+    - SwiftHash
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: f41a599bd63041760b26d393ec1069d9d7b917f4
+  Kingfisher: 1f9157d9c02b380cbd0b7cc890161195164eb634
+  ShineChart: 3a671ce8d01bc2c2298e751f55e771908d562b0c
+  SwiftHash: c805de5a434eacfa0dac7210745a50c55d7fe33d
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+
+PODFILE CHECKSUM: 48f024481fb988b3ae6cd3b81f85269fbab15d9a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module Pods_WKProject {
+  umbrella header "Pods-WKProject-umbrella.h"
+
+  export *
+  module * { export * }
+}

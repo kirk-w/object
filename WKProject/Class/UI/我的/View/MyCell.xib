@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="98" id="Vx9-2f-BZC" customClass="MyCell" customModule="WKProject" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="737" height="98"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Vx9-2f-BZC" id="Y6G-PA-xMj">
+                <rect key="frame" x="0.0" y="0.0" width="737" height="97.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mpY-9O-OOx">
+                        <rect key="frame" x="10" y="10" width="77.5" height="77.5"/>
+                        <color key="backgroundColor" red="1" green="0.57810515169999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="mpY-9O-OOx" secondAttribute="height" multiplier="1:1" id="YYE-yM-d90"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="那个冬天" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AA7-Dx-cgq">
+                        <rect key="frame" x="102.5" y="38.5" width="70" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mpY-9O-OOx" firstAttribute="top" secondItem="Y6G-PA-xMj" secondAttribute="top" constant="10" id="5IR-7Y-mCw"/>
+                    <constraint firstItem="AA7-Dx-cgq" firstAttribute="leading" secondItem="mpY-9O-OOx" secondAttribute="trailing" constant="15" id="LaO-fc-Be5"/>
+                    <constraint firstAttribute="bottom" secondItem="mpY-9O-OOx" secondAttribute="bottom" constant="10" id="PoL-vd-KVb"/>
+                    <constraint firstItem="mpY-9O-OOx" firstAttribute="leading" secondItem="Y6G-PA-xMj" secondAttribute="leading" constant="10" id="bBf-k9-Sh6"/>
+                    <constraint firstItem="AA7-Dx-cgq" firstAttribute="centerY" secondItem="mpY-9O-OOx" secondAttribute="centerY" id="l46-Mr-3QD"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="iconIMG" destination="mpY-9O-OOx" id="cpE-ac-3cb"/>
+                <outlet property="titleLB" destination="AA7-Dx-cgq" id="hKb-bU-5jt"/>
+            </connections>
+            <point key="canvasLocation" x="221.5" y="-221"/>
+        </tableViewCell>
+    </objects>
+</document>
